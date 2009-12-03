@@ -1,0 +1,38 @@
+
+Global setup:
+
+  Download and install Git
+  git config --global user.name "Your Name"
+  git config --global user.email czarnas@gmail.com
+  Add your public key
+        
+
+Next steps:
+
+  mkdir webPage4WDG
+  cd webPage4WDG
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:czarnas/webPage4WDG.git
+  git push origin master
+      
+
+Existing Git Repo?
+
+  cd existing_git_repo
+  git remote add origin git@github.com:czarnas/webPage4WDG.git
+  git push origin master
+      
+
+Importing a Subversion Repo?
+
+  Click here
+      
+
+When you're done:
+
+  Continue
+
+
