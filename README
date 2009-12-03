@@ -12,3 +12,19 @@ Global setup:
       
 Generating a key
 ssh-keygen -t rsa -C "[mail]"
+
+Podstawowe komendy:
+	dodajemy plik:
+		git add <plik> <plik2> ...
+		git commit -m "wiadomosc o zmianach"
+		git push origin master "zatwierdzanie zmian"
+	usuwamy plik
+		git rm <plik> <plik2> ...
+		git commit -m "wiadomosc"
+		git push origin master
+	sprawdzamy co zostalo zmienione
+		git chekout
+	jak wyedytowalismy plik to:
+		git add <plik>
+		git commit -m "wiadomosc"
+		git push origin master
